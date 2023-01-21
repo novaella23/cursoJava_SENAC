@@ -7,6 +7,10 @@ public class TesteVariavel {
 		mensagem = "mudei";
 		System.out.println(mensagem);
 
+			
+		int idade = Integer.parseInt("10");
+		System.out.println(idade);
+		
 		
 	}
 
