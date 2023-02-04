@@ -6,15 +6,19 @@ public class Tabuada {
 		int contador=1;
 		int num1 = 1;
 				
-				while(contador <=10) {
-					int multiplica = num1 * contador;
-					System.out.println(num1 + "x" + contador + "=" + multiplica);
-					contador++;
-				}
-								
-			
 				while(num1 <=10) {
+					contador = 1;
+					while(contador <=10) {
+						System.out.println(num1 + " x " + contador + " = " + num1*contador);
+						contador ++;
+					}
+					System.out.println();
 					num1++;
 				}
+			}
+
+								
+			
+				
 					
 				}
