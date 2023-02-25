@@ -30,7 +30,7 @@ public class Mennu {
 		 * System.out.println("Opção inválida"); }
 		 */
 		 
-				
+		/*		
 		if( valor.equals(cadastrar)){ 
 			System.out.println("cadastrando..."); 
 			} 
@@ -42,7 +42,55 @@ public class Mennu {
 			}
 		else {
 			System.out.println("Opção inválida! Digite 1, 2 ou 3"); 
-			}
+			}*/
 	
+		
+		/*if( valor.equals(cadastrar)){ 
+				System.out.println("cadastrando..."); 
+				} 
+			else if( valor.equals(listar)){ 
+					System.out.println("listando..."); 
+				} 
+			else if( valor.equals(sair)){
+					System.out.println("saindo..."); 
+				}
+			else {
+				System.out.println("Opção inválida! Digite 1, 2 ou 3"); 
+				}*/		
+
+		if( valor.equals(cadastrar)){ 
+			cadastrar(); 
+			} 
+			else if( valor.equals(listar)){ 
+				listar(); 
+				} 
+				else if( valor.equals(sair)){
+					sair(); 
+					}
+		else {
+			System.out.println("Opção inválida! Digite 1, 2 ou 3"); 
+			}
+		
+		
+		
+		}
+
+	public static void cadastrar() {
+		System.out.println("cadastrando...");
+		
 	}
+	
+	
+	public static void listar () {
+		System.out.println("listando...");
+	}
+
+	
+	public static void sair () {
+		System.out.println("saindo...");
+	}
+	
+	
+	
+	
 }
